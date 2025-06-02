@@ -74,15 +74,7 @@ No requiere body. Devuelve `204 No Content`.
 
 `GET /valoraciones/`
 
-```json
-fetch('/valoraciones')
-  .then(response => response.json())
-  .then(data => console.log(data));
 ```
-
-`PUT /valoraciones/`
-
-```json
 fetch('/valoraciones')
   .then(response => response.json())
   .then(data => console.log(data));
@@ -90,7 +82,7 @@ fetch('/valoraciones')
 
 `POST o PUT /valoraciones/`
 
-```json
+```
 var url = "/valoraciones"; // SI ES PUT --> var url = "/valoraciones/:id";
 var data = { username: "example" };
 
@@ -108,7 +100,7 @@ fetch(url, {
 
 `DELETE /valoraciones/`
 
-```json
+```
 const url = '/valoraciones/:id'; // URL del recurso a eliminar
 const options = {
   method: 'DELETE',
