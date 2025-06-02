@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "usuario": "Carlos",
+    "comentario": "Servicio rápido y excelente atención",
+    "puntuacion": 5
+  },
+  {
+    "id": "2",
+    "usuario": "Ángel",
+    "comentario": "Fueron muy lentos en atendernos pero luego la comida estaba exquisita. Les daré otra oportunidad",
+    "puntuacion": 3
+  }
+]

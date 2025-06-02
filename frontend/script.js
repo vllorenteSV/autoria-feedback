@@ -1,0 +1,1 @@
+console.log('script de js para hacer la lógica de las valoraciones');
