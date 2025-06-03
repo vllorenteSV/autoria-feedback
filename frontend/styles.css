@@ -49,7 +49,7 @@
   }
   
   form button:hover {
-    background-color: #d62828;
+    background-color: #04044e;
   }
   
   .valoracion {
@@ -88,12 +88,12 @@
   }
   
   .valoracion .acciones .editar {
-    background-color: #1e90ff;
+    background-color: green;
     color: white;
   }
   
   .valoracion .acciones .borrar {
-    background-color: #dc3545;
+    background-color:red;
     color: white;
   }
   
