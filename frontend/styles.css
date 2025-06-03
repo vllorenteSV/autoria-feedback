@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #b22222;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  form h2 {
+    margin-top: 0;
+  }
+  
+  form input,
+  form textarea,
+  form select,
+  form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background-color: #b22222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #d62828;
+  }
+  
+  .valoracion {
+    background-color: #fff;
+    padding: 1rem;
+    border-left: 6px solid #b22222;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .valoracion h3 {
+    margin: 0 0 0.5rem 0;
+    color: #b22222;
+  }
+  
+  .valoracion .comentario {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+  
+  .valoracion .puntuacion {
+    color: #ffcc00;
+  }
+  
+  .valoracion .acciones {
+    margin-top: 0.5rem;
+  }
+  
+  .valoracion .acciones button {
+    margin-right: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .valoracion .acciones .editar {
+    background-color: #1e90ff;
+    color: white;
+  }
+  
+  .valoracion .acciones .borrar {
+    background-color: #dc3545;
+    color: white;
+  }
+  
