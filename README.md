@@ -1,6 +1,6 @@
 # 🧪 API de Valoraciones de la Hamburguesería
 
-Este proyecto es una API sencilla en Node.js + Express para gestionar **valoraciones generales de una hamburguesería**, pensada para ser usada como backend en pruebas de frontend.
+Este proyecto es una API sencilla en Node.js + Express para gestionar **valoraciones generales de vuestra hamburguesería**, pensada para ser usada como backend en pruebas de frontend.
 
 ## 🚀 Instalación
 
@@ -20,7 +20,7 @@ El servidor correrá en: [http://localhost:3000](http://localhost:3000)
 Al abrirlo verás que carga el html que tienes en la carpeta frontend/index.html
 
 Para usar la API, solo tienes que tener en cuenta el endpoint tal y como se indica a continuación. Como comparten la base de la URL (localhost:3000), eso no hace falta que lo añadas en tus llamadas fetch. 
-
+Puedes ver documentación del fetch en este documento más abajo. 
 
 ---
 
@@ -69,11 +69,9 @@ No requiere body. Devuelve `204 No Content`.
 
 ---
 
-
 ## Documentación fetch
 
 `GET /valoraciones/`
-
 ```
 fetch('/valoraciones')
   .then(response => response.json())
@@ -81,14 +79,13 @@ fetch('/valoraciones')
 ```
 
 `POST o PUT /valoraciones/`
-
 ```
 var url = "/valoraciones"; // SI ES PUT --> var url = "/valoraciones/:id";
-var data = { username: "example" };
+var data = { username: "example" }; // el objeto que queremos añadir
 
 fetch(url, {
   method: "POST", // or 'PUT'
-  body: JSON.stringify(data), // data can be `string` or {object}!
+  body: JSON.stringify(data), 
   headers: {
     "Content-Type": "application/json",
   },
@@ -99,7 +96,6 @@ fetch(url, {
 ```
 
 `DELETE /valoraciones/`
-
 ```
 const url = '/valoraciones/:id'; // URL del recurso a eliminar
 const options = {
